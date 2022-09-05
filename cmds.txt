@@ -1,0 +1,79 @@
+    1  cd project-ml-microservice-kubernetes/
+    2  bash resize.sh 100
+    3  make setup
+    4  source ~/.devops/bin/activate
+    5  make install
+    6  make lint
+    7  make install
+    8  make lint
+    9  make install
+   10  make lint
+   11  sudo wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/download/v1.16.3/hadolint-Linux-x86_64 && sudo chmod +x /bin/hadolint
+   12  https://github.com/hadolint/hadolint/releases/download/v1.16.3/hadolint-Linux-x86_64 && sudo chmod +x ./hadolint
+   13  sudo wget -O ./hadolint https://github.com/hadolint/hadolint/releases/download/v1.16.3/hadolint-Linux-x86_64 && sudo chmod +x ./hadolint
+   14  make lint
+   15  curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+   16  sudo install minikube-linux-amd64 /usr/local/bin/minikube
+   17  curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl
+   18  sudo chmod +x ./kubectl
+   19  sudo mv ./kubectl /usr/local/bin/kubectl
+   20  docker version
+   21  make lint
+   22  cd project-ml-microservice-kubernetes/
+   23  make setup
+   24  source ~/.devops/bin/activate
+   25  bash make_prediction.sh
+   26  bash run_docker.sh
+   27  cd project-ml-microservice-kubernetes/
+   28  cd 
+   29  cd environment/
+   30  cd project-ml-microservice-kubernetes/
+   31  bash make_prediction.sh
+   32  touch docker_out.txt
+   33  bash run_docker.sh
+   34  make setup
+   35  source ~/.devops/bin/activatesource ~/.devops/bin/activatepython3 -m venv ~/.devops
+   36  make setup
+   37  python3 -m venv ~/.devops
+   38  source ~/.devops/bin/activate
+   39  bash upload_docker.sh
+   40  cd project-ml-microservice-kubernetes/
+   41  make setup
+   42  source ~/.devops/bin/activate
+   43  bash upload_docker.dh
+   44  bash upload_docker.sh
+   45  cd project-ml-microservice-kubernetes/make lint
+   46  make lint
+   47  cd project-ml-microservice-kubernetes/
+   48  make setup
+   49  source ~/.devops/bin/activate
+   50  bash make_prediction.sh
+   51  touch kubernetes_out.txt
+   52  bash make_prediction.sh
+   53  mkdir .circleci
+   54  cd .circleci
+   55  touch config.yml
+   56  ls
+   57  cd ../
+   58  ls
+   59  git init
+   60  git add .
+   61  git commit -m 'my project 4 upload'
+   62  git branch -M main
+   63  git remote add origin https://github.com/FreedHeicho/project4opermaclearn.git
+   64  git status
+   65  git add .
+   66  git commit -m 'anoother upload'
+   67  git status
+   68  git config --global user.name "FreedHeicho"
+   69  git config --global user.email akinbinuola@gmail.com
+   70  git push -u origin main
+   71  git add .
+   72  git commit -m 'config.yml linting'
+   73  git push -u origin main
+   74  git status
+   75  git add .
+   76  git commit -m 'config.yml linting and status badge addition'
+   77  git push -u  origin main
+   78  History > cmds.txt
+   79  history > cmds.txt
